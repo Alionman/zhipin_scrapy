@@ -1,0 +1,12 @@
+1525245694959	geckodriver	INFO	geckodriver 0.19.1
+1525245694969	geckodriver	INFO	Listening on 127.0.0.1:64326
+1525245696637	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/lc/qhkh7lb97710s68nh3110kbm0000gn/T/rust_mozprofile.jKgPiR7eFAF2"
+1525245699214	Marionette	INFO	Enabled via --marionette
+2018-05-02 15:21:41.714 plugin-container[52015:4025784] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa337, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-05-02 15:21:43.130 plugin-container[52017:4025863] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa037, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1525245703500	Marionette	INFO	Listening on port 64337
+1525245703720	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 52015, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
